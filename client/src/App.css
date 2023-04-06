@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Allura&family=Babylonica&family=DM+Serif+Display&family=Itim&family=Knewave&family=Montserrat&family=Prata&family=Unbounded&family=Unna&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling*/
+.feature-header,
+.categories-header,
+.products-header {
+  font-size: 19px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Unbounded";
+}
+
+/* Navbar styles */
+.nav-container {
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(250 204 21);
+}
+
+.nav-item {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  font-family: "DM Serif Display";
+}
+/* Home container style */
+.home-container {
+  width: 100vw;
+}
+/* Welcome section styles */
+.welcome-container {
+  width: 100vw;
+  padding: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Welcome content styling */
+.welcome-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "DM Serif Display";
+}
+
+/* Feature section style */
+
+.feature-container {
+  display: flex;
+  justify-content: space-between;
+  height: 350px;
+  padding: 10px;
+  background-color: rgb(250 204 21);
+}
+
+/* feature card style */
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.feature-button {
+  display: flex;
+  justify-content: center;
+}
+
+/* Category section styling */
+.categories-container {
+  display: flex;
+  justify-content: space-between;
+  height: 350px;
+  padding: 10px;
+}
+
+.category-name {
+  text-align: center;
+  font-size: 19px;
+  font-family: "Unna";
+  padding: 10px;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+}
+
+/*   border-style: solid;
+  border-width: 2px;
+  border-color: black; */
+
+/* Product section style */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 10px;
+  background-color: rgb(250 204 21);
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 5px;
+  height: 450px;
+  background-color: rgb(234 179 8);
+  border-radius: 10px;
+}
+
+.product-image {
+  height: 290px;
+}
+
+.product-name {
+  text-align: center;
+  font-size: 19px;
+  font-family: "Unna";
+  padding: 10px;
+}
+
+.product-button {
+  display: flex;
+  justify-content: center;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+}
+
+.link-item {
+  width: 25%;
+  padding: 5px;
+  height: 50%;
+}
